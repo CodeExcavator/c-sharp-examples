@@ -10,11 +10,11 @@ namespace c_sharp_features.Delegates
     {
         public delegate int ProcessTwoNumbersDelegate(int a, int b);
 
-        public ProcessTwoNumbersDelegate processNumbers;
-
+        public ProcessTwoNumbersDelegate processNumbersDelegate;
+       
         public string ProcessNumbersWithMsg(int a, int b)
         {
-            return ProcessNumbersWithMsg(a, b, processNumbers);
+            return ProcessNumbersWithMsg(a, b, processNumbersDelegate);
         }
 
         private string ProcessNumbersWithMsg(int a, int b, ProcessTwoNumbersDelegate processNumbersDelegate)

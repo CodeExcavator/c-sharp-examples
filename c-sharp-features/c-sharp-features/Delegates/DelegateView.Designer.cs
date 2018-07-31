@@ -35,6 +35,7 @@
             this.btnSubtrack = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
             this.btnWithMsg = new System.Windows.Forms.Button();
+            this.btnMultiply = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtA
@@ -99,11 +100,22 @@
             this.btnWithMsg.UseVisualStyleBackColor = true;
             this.btnWithMsg.Click += new System.EventHandler(this.btnWithMsg_Click);
             // 
+            // btnMultiply
+            // 
+            this.btnMultiply.Location = new System.Drawing.Point(12, 111);
+            this.btnMultiply.Name = "btnMultiply";
+            this.btnMultiply.Size = new System.Drawing.Size(100, 23);
+            this.btnMultiply.TabIndex = 7;
+            this.btnMultiply.Text = "Multiply";
+            this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
+            // 
             // DelegateView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 221);
+            this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.btnWithMsg);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnSubtrack);
@@ -127,5 +139,6 @@
         private System.Windows.Forms.Button btnSubtrack;
         private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.Button btnWithMsg;
+        private System.Windows.Forms.Button btnMultiply;
     }
 }
