@@ -1,2 +1,2 @@
 # c-sharp-examples
-This is a WinForms project that will be used as a showcase for all the blogposts at [CodeExcavator](https://codeexcavator.com) regarding C# Features.
+This is a WinForms project that will be used as a showcase for all the blogposts at [CodeExcavator](https://codeexcavator.com) regarding.
